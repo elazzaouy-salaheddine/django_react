@@ -42,7 +42,13 @@ INSTALLED_APPS = [
 
     'frontend',
     
-    'client'
+    'client',
+    'architect',
+    'category',
+    'gte',
+    'nov',
+    'opc',
+    'user'
 ]
 
 MIDDLEWARE = [
