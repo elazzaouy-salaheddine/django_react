@@ -25,7 +25,7 @@ SECRET_KEY = 'b^*htb0g77h&&sk&%4i*pc1&^d)i#%kbx-mhq5^-6*oz*w$qbq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1','gtedjangoapi.herokuapp.com','localhost:5000']
+ALLOWED_HOSTS = ['127.0.0.1','gtedjangoapi.herokuapp.com','0.0.0.0']
 
 
 # Application definition
@@ -37,6 +37,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework',
+
+    'frontend',
+    
+    'client'
 ]
 
 MIDDLEWARE = [
@@ -55,7 +61,7 @@ ROOT_URLCONF = 'app.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -92,6 +98,7 @@ DATABASES = {
         'PORT': '5432',
     }
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
