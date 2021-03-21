@@ -1,5 +1,5 @@
 """
-WSGI config for gte_django_react project.
+WSGI config for app project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
