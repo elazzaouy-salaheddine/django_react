@@ -1,0 +1,1 @@
+theme use in this project : /home/stango/Desktop/DEV/frest-admin-v2.1/html-version/frest-html-bootstrap-admin-template/frest-html-bootstrap-admin-template/html/ltr/horizontal-menu-template
