@@ -1,8 +1,30 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
+import React, {Component,Fragment} from "react";
+import {render} from "react-dom";
+
+import Base from '../layout/Base';
+
 
 class App extends Component {
-  constructor(props) {
+
+  render() {
+    return (
+       <> 
+       <Base/>
+       </>
+    )
+  }
+}
+
+export default App;
+
+const container = document.getElementById("app");
+render( < App / > , container);
+
+
+
+
+
+{/*   constructor(props) {
     super(props);
     this.state = {
       data: [],
@@ -37,7 +59,7 @@ class App extends Component {
         {this.state.data.map(Opc => {
           return (
             <li key={Opc.id}>
-              {Opc.raison_social} 
+              {Opc.raison_social}
             </li>
           );
         })}
@@ -45,9 +67,4 @@ class App extends Component {
       </ul>
     );
   }
-}
-
-export default App;
-
-const container = document.getElementById("app");
-render(<App />, container);
+ */}
