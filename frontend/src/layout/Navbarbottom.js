@@ -1,4 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import Architect from '../models/architect/Architect';
+
+
 
 export default class Navbarbottom extends Component {
     render() {
@@ -20,6 +24,7 @@ export default class Navbarbottom extends Component {
             <div className="navbar-container main-menu-content" data-menu="menu-container">
               
                 <ul className="nav navbar-nav" id="main-menu-navigation" data-menu="menu-navigation" data-icon-style="filled">
+
                     <li>
                         <a href="index.html" className='pr-2'>Dashboard</a>
 
@@ -49,6 +54,7 @@ export default class Navbarbottom extends Component {
                         <a href="index.html" className='pr-2'>Opc</a>
 
                     </li>
+                  
 
                 </ul>
             </div>

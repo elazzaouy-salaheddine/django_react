@@ -33,8 +33,8 @@ export default class Navbar extends Component {
                             <li className="nav-item d-none d-lg-block"><a className="nav-link bookmark-star"><i className="ficon bx bx-star warning"></i></a>
                                 <div className="bookmark-input search-input">
                                     <div className="bookmark-input-icon"><i className="bx bx-search primary"></i></div>
-                                    <input className="form-control input" type="text" placeholder="Explore Frest..." tabindex="0" data-search="template-search"/>
-                                    <ul className="search-list"></ul>
+{/*                                     <input className="form-control input" type="text" placeholder="Explore Frest..." tabIndex="0" data-search="template-search"/>
+ */}                                    <ul className="search-list"></ul>
                                 </div>
                             </li>
                         </ul>
@@ -47,7 +47,7 @@ export default class Navbar extends Component {
                         <li className="nav-item nav-search"><a className="nav-link nav-link-search pt-2"><i className="ficon bx bx-search"></i></a>
                             <div className="search-input">
                                 <div className="search-input-icon"><i className="bx bx-search primary"></i></div>
-                                <input className="input" type="text" placeholder="Explore Frest..." tabindex="-1" data-search="template-search"/>
+                                <input className="input" type="text" placeholder="Explore Frest..." tabIndex="-1" data-search="template-search"/>
                                 <div className="search-input-close"><i className="bx bx-x"></i></div>
                                 <ul className="search-list"></ul>
                             </div>
@@ -115,7 +115,7 @@ export default class Navbar extends Component {
                                             <div className="media-right">
                                                 <div className="custom-control custom-switch">
                                                     <input className="custom-control-input" type="checkbox" checked id="notificationSwtich"/>
-                                                    <label className="custom-control-label" for="notificationSwtich"></label>
+                                                    <label className="custom-control-label" ></label>
                                                 </div>
                                             </div>
                                         </div>
