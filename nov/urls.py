@@ -1,9 +1,9 @@
 from rest_framework import routers
 
-from .api import ClientViewSet
+from .api import NovProjectsViewSet
 
 
 router = routers.DefaultRouter()
-router.register('clients', ClientViewSet, 'clients')
+router.register('novprojects', NovProjectsViewSet, 'novprojects')
 
 urlpatterns = router.urls

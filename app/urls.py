@@ -23,5 +23,7 @@ urlpatterns = [
     path('client-api/', include('client.urls')),
     path('architects-api/',include('architect.urls')),
     path('categories-api/',include('category.urls')),
-    path('opcs-api/',include('opc.urls'))
+    path('opcs-api/',include('opc.urls')),
+    path('gte-projects-api/',include('gte.urls')),
+    path('nov-projects-api/',include('nov.urls'))
 ]

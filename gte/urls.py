@@ -1,9 +1,9 @@
 from rest_framework import routers
 
-from .api import ClientViewSet
+from .api import GteProjectsViewSet
 
 
 router = routers.DefaultRouter()
-router.register('clients', ClientViewSet, 'clients')
+router.register('gteprojects', GteProjectsViewSet, 'gteprojects')
 
 urlpatterns = router.urls

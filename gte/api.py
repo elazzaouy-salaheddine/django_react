@@ -1,10 +1,10 @@
-from .models import Client
+from .models import Gte_Table_Comercial
 from rest_framework import viewsets, permissions
 
-from .serializers import ClientSerializer
+from .serializers import GteProjectsSerializer
 
 
-class ClientViewSet(viewsets.ModelViewSet):
-    queryset = Client.objects.all()
+class GteProjectsViewSet(viewsets.ModelViewSet):
+    queryset = Gte_Table_Comercial.objects.all()
     permission_classes = [permissions.AllowAny]
-    serializer_class = ClientSerializer
+    serializer_class = GteProjectsSerializer

@@ -1,8 +1,8 @@
 from rest_framework import serializers
-from .models import Client
+from .models import Nv_Table_Comercial
 
 
-class ClientSerializer(serializers.ModelSerializer):
+class NovProjectsSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Client
+        model = Nv_Table_Comercial
         fields = '__all__'
